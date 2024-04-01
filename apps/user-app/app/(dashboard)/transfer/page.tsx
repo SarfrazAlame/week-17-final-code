@@ -2,7 +2,7 @@ import prisma from "@repo/db/client";
 import { AddMoney } from "../../../components/AddMoneyCard";
 import { BalanceCard } from "../../../components/BalanceCard";
 import { OnRampTransactions } from "../../../components/OnRampTransactions";
-import { getServerSession } from "next-auth";
+import { getServerSession } from "next-auth/next";
 import { authOptions } from "../../lib/auth";
 
 async function getBalance() {
