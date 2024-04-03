@@ -17,7 +17,7 @@ export default function Layout({
             {children}
     </div>
   );
-}
+} 
 
 // Icons Fetched from https://heroicons.com/
 function HomeIcon() {

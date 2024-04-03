@@ -52,5 +52,9 @@ export default async function() {
                 </div>
             </div>
         </div>
+
+        <div>
+            {/* here will transaction */}
+        </div>
     </div>
 }
